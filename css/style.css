@@ -6,6 +6,10 @@ nav {
   height: 63px;
 }
 
+.nav-hamburger {
+  color: black;
+}
+
 .logo {
   height:50px;
 }

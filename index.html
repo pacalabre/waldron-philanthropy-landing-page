@@ -11,7 +11,7 @@
   <body>
     <!-- Navbar -->
     <div class="navbar-fixed">
-      <!-- Dropdown Structure -->
+
       <ul id="dropdown1" class="dropdown-content">
         <li><a href="#!">Speaker 1</a></li>
         <li><a href="#!">Speaker 2</a></li>
@@ -21,14 +21,27 @@
       <nav>
         <div class="nav-wrapper">
           <a href="#" class="brand-logo"><img class="logo" src="images/waldron-transparent-w.png"></a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="nav-hamburger material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
-            <li><a href="sass.html">Home</a></li>
-            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Speakers<i class="material-icons right">arrow_drop_down</i></a></li>
+              <li><a href="sass.html">Home</a></li>
+              <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Speakers<i class="material-icons right">arrow_drop_down</i></a></li>
+              <li><a class="btn nav-rsvp-btn" href="">RSVP</a></li>
+            </ul>
+          <ul class="side-nav" id="mobile-demo">
+            <li><a href="#"><h5 class="side-nav-link">Speaker 1</h5></a></li>
+            <li><a href="badges.html"><h5 class="side-nav-link">Speaker 2</h5></a></li>
+            <li><a href="collapsible.html"><h5 class="side-nav-link ">Speaker 3</h5></a></li>
             <li><a class="btn nav-rsvp-btn" href="">RSVP</a></li>
           </ul>
         </div>
       </nav>
     </div>
+
+
+
+
+
+
 
     <!-- Header Image -->
     <section class="header-section">
