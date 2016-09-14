@@ -1,1 +1,18 @@
 
+/*nav styles*/
+
+nav {
+  background-color: white;
+}
+
+.logo {
+  height:50px;
+}
+
+nav .brand-logo {
+  padding: 7px;
+}
+
+nav ul li a {
+  color: #006a72;
+}
