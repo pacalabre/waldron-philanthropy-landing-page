@@ -22,8 +22,12 @@ nav ul li a {
   color: #006a72;
 }
 
-nav ul a.btn {
-  margin-top: 13px;
+.side-nav-link {
+  padding-top: 5%;
+}
+
+.side-nav a.btn {
+  font-size: 1.7rem;
 }
 
 /* Header Section */
@@ -164,7 +168,7 @@ fieldset {
 @media only screen and (min-width: 992px) {
 
   .header-section {
-    height: 75%;
+    height: 620px;
   }
 
   .header-rsvp-btn {
