@@ -128,6 +128,10 @@ fieldset {
   p, .form-group-label, .label-button ,[type="radio"]:not(:checked)+label, [type="radio"]:checked+label {
     font-size: 17px;
   }
+
+  .footer-logo {
+    width: 40%;
+  }
 }
 
 @media only screen and (min-width: 801px) {
@@ -146,6 +150,9 @@ fieldset {
 
   p, .form-group-label, .label-button ,[type="radio"]:not(:checked)+label, [type="radio"]:checked+label {
     font-size: 20px;
+  }
+  .footer-logo {
+    width: 30%;
   }
 }
 
@@ -190,6 +197,10 @@ fieldset {
 
   p, .form-group-label,[type="radio"]:not(:checked)+label, [type="radio"]:checked+label {
     font-size: 24px;
+  }
+
+  .footer-logo {
+    width: 25%;
   }
 }
 
