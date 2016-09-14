@@ -69,3 +69,10 @@ nav ul a.btn {
   font-size: 30px;
   text-align: center;
 }
+
+/* RSVP Form */
+
+.submit-wrapper {
+  text-align: center;
+  margin-top: 20px;
+}
