@@ -1,8 +1,9 @@
 
-/*nav styles*/
+/* Nav Styles */
 
 nav {
   background-color: white;
+  height: 63px;
 }
 
 .logo {
@@ -15,4 +16,14 @@ nav .brand-logo {
 
 nav ul li a {
   color: #006a72;
+}
+
+/* Header Section */
+
+.header-section {
+  background-image: url('../images/leaders.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  height: 400px;
 }
