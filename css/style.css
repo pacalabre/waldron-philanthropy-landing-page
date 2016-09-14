@@ -72,6 +72,36 @@ nav ul a.btn {
 
 /* RSVP Form */
 
+form {
+  text-align: center;
+}
+
+input[type = text] {
+  border: solid thin black;
+  border-radius: 5px;
+  width: 80%;
+  font-size: 2rem;
+}
+
+fieldset {
+  border: none;
+}
+
+.form-group-label {
+  font-size: 15px;
+  color: black;
+  text-align: left;
+}
+
+.radioSection {
+  text-align: left;
+  margin-left: 10%;
+}
+
+.label-button {
+  color: black;
+}
+
 .submit-wrapper {
   text-align: center;
   margin-top: 20px;
