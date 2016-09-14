@@ -18,6 +18,10 @@ nav ul li a {
   color: #006a72;
 }
 
+nav ul a.btn {
+  margin-top: 13px;
+}
+
 /* Header Section */
 
 .header-section {
@@ -28,6 +32,6 @@ nav ul li a {
   text-align: center;
 }
 
-.btn {
+.header-rsvp-btn {
   margin-top: 45%;
 }
