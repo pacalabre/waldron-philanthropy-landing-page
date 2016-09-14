@@ -30,14 +30,14 @@ nav ul a.btn {
 
 .header-section {
   background-image: url('../images/leaders.png');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  height: 300px;
+  width: 100%;
   text-align: center;
 }
 
 .header-rsvp-btn {
-  margin-top: 45%;
+  margin: 40% auto 10% auto;
 }
 
 
@@ -48,7 +48,7 @@ nav ul a.btn {
 }
 
 .event-detail-section {
-  margin: 0px auto 5% auto;
+  margin: 0px auto 25px auto;
 }
 
 .event-detail-icons {
@@ -110,3 +110,17 @@ fieldset {
   text-align: center;
   margin-top: 20px;
 }
+
+/* Footer */
+
+.footer-logo {
+  width: 60%;
+  margin: 20% auto 10% auto;
+  display: block;
+}
+
+/*@media only screen and (min-width: 450px) and (max-width: 600px) {
+  .header-section {
+    height: 400px;
+  }
+}*/
