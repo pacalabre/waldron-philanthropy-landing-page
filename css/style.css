@@ -24,6 +24,10 @@ nav ul li a {
   background-image: url('../images/leaders.png');
   background-size: contain;
   background-repeat: no-repeat;
-
   height: 400px;
+  text-align: center;
+}
+
+.btn {
+  margin-top: 45%;
 }
