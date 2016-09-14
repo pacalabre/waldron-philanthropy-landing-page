@@ -28,10 +28,44 @@ nav ul a.btn {
   background-image: url('../images/leaders.png');
   background-size: contain;
   background-repeat: no-repeat;
-  height: 400px;
+  height: 300px;
   text-align: center;
 }
 
 .header-rsvp-btn {
   margin-top: 45%;
+}
+
+
+/* Event Detail Icon Section */
+
+.event-detail {
+  /*margin-top: -5%;*/
+}
+
+.event-detail-section {
+  margin: 0px auto 5% auto;
+}
+
+.event-detail-icons {
+  display: block;
+  height: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.event-detail-label {
+  text-align: center;
+  font-size:20px;
+}
+
+.speaker-list {
+  margin-top: -10px;
+}
+
+/* Event Description */
+
+.event-description {
+  font-size: 30px;
+  text-align: center;
 }
