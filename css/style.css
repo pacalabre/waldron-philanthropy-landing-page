@@ -151,6 +151,11 @@ fieldset {
   p, .form-group-label, .label-button ,[type="radio"]:not(:checked)+label, [type="radio"]:checked+label {
     font-size: 20px;
   }
+
+  input[type=text] {
+    width: 60%;
+  }
+
   .footer-logo {
     width: 30%;
   }
@@ -197,6 +202,10 @@ fieldset {
 
   p, .form-group-label,[type="radio"]:not(:checked)+label, [type="radio"]:checked+label {
     font-size: 24px;
+  }
+
+  input[type=text] {
+    width: 45%;
   }
 
   .footer-logo {
