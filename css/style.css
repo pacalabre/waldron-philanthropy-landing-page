@@ -169,7 +169,7 @@ fieldset {
   }
 
   .radioSection {
-    margin-left: 27%;
+    margin-left: 19%;
   }
 
   .footer-logo {
@@ -221,6 +221,10 @@ fieldset {
 
   input[type=text] {
     width: 45%;
+  }
+
+  .radioSection {
+    margin-left: 27%;
   }
 
   .footer-logo {
