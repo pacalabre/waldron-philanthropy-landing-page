@@ -168,6 +168,10 @@ fieldset {
     width: 60%;
   }
 
+  .radioSection {
+    margin-left: 27%;
+  }
+
   .footer-logo {
     width: 30%;
   }
